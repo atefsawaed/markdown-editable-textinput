@@ -174,7 +174,7 @@ class _MarkdownTextInputState extends State<MarkdownTextInput> {
             validator: widget.validators != null
                 ? (value) => widget.validators!(value)
                 : null,
-            style: widget.textStyle ?? Theme.of(context).textTheme.bodyText1,
+            style: widget.textStyle ?? Theme.of(context).textTheme.bodyMedium,
             cursorColor: Theme.of(context).primaryColor,
             textDirection: widget.textDirection,
             decoration: InputDecoration(
